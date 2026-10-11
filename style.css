@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+* {
+    font-family: 'Unbounded', sans-serif;
+    margin: 20px 10px;
+    color: #111827;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.title {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.aroma-card {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: -1px;
+    width: 325px;
+    height: 115px;
+    border: 1px solid #000;
+}
+
+.image {
+    margin: 0;
+    height: 100%;
+}
+
+.aroma-info {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5px;
+}
+
+.aroma-name {
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.aroma-description {
+    font-size: 1.4vw;
+    margin: 0;
+}
+
